@@ -7,3 +7,7 @@
   overflow-x: auto;            /* horizontal scroll if too long */
   white-space: pre-wrap;       /* keep formatting */
 }
+body {
+  text-align: center;   /* centers inline elements like text, links, SVGs */
+  font-family: Arial, sans-serif;
+}
