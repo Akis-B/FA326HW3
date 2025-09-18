@@ -1,1 +1,9 @@
-
+.code-box {
+  background-color: #000000;   /* black background */
+  color: #00ff00;              /* green text */
+  font-family: "Courier New", Courier, monospace; /* classic code font */
+  padding: 10px;               /* space inside box */
+  border-radius: 6px;          /* smooth corners */
+  overflow-x: auto;            /* horizontal scroll if too long */
+  white-space: pre-wrap;       /* keep formatting */
+}
