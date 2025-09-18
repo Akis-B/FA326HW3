@@ -30,11 +30,41 @@
         &lt;path d="M129 10h18s22-1 21 10c0 18-27 17-27 17l5-23h-18l-8 33h18s18 1 33-7 ..." /&gt;
         &lt;/svg&gt;
         </code></pre>
-      
+        The "D"
         <svg viewBox="0 0 187 83" width="200">
         <path d="M129 10h18s22-1 21 10c0 18-27 17-27 17l5-23h-18l-8 33h18s18 1 33-7 ..."/>
         </svg>
-    </div>
 
+        Fun HTML fact: if the code doesn't work properly you'll get text saying <br>
+          "This would normally be a DVD logo that moves around the screen <br>
+          reflecting off every wall and changing colour each time. Unfortunately,<br>
+          I need JavaScript to make it work so you'll just have to imagine it <br>
+          doing that. Sorry… :(" <br>
+    </div>
+  
+    <div>
+        <h4>JavaScript</h4>
+
+        The JavaScript makes the logo move smoothly across the screen by continuously updating its position with each animation frame <br>
+        It checks for collisions with the edges of the browser window and, when the logo hits a wall, it reverses direction so it “bounces” back <br>
+        Each time a collision happens, the script also changes the color of the logo <br>
+        The code that is run to change the logo's color look like: <br>
+      
+        <pre><code>
+        logo.style.fill = `rgb(${Math.random()*255}, ${Math.random()*255}, ${Math.random()*255})`;
+        </code></pre>
+
+        Fun JavaScript fact: The color of the logo is chosen using the Math.random() function <br>
+          Meanin that there is no pattern concerning the color change of the logo <br>
+          and it is trully radom. <br>
+    </div>
+    <div>
+        <h4>CSS</h4>
+
+        The CSS code in this case does not anything that extra. <br>
+        It just determines colors, font, sizes, etc. <br>
+        As we all know from codecademy!<br>
+      
+  </div>
 </body>
 </html>
